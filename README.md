@@ -85,8 +85,9 @@ VITE_FIREBASE_APP_ID=tu_app_id
 ## 📸 Capturas de Pantalla
 
 ### Versión de Escritorio (Desktop)
-![Vista de Escritorio - Inicio](public/img/)
-![Vista de Escritorio - Buscador y Pom-Pom](public/img/captura-desktop-2.png)
+![Vista de Escritorio - Inicio](public/img/home.png)
+![Vista de Escritorio - Buscador y Pom-Pom](public/img/buscador.png)
+![Vista de Escritorio - Buscador y Pom-Pom](public/img/favoritos.png)
 
 ### Versión Móvil (Mobile - 375px)
 ![Vista Móvil - Inicio](public/img/captura-mobile-1.png)

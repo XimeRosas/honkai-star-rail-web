@@ -90,5 +90,6 @@ VITE_FIREBASE_APP_ID=tu_app_id
 ![Vista de Escritorio - Buscador y Pom-Pom](public/img/favoritos.png)
 
 ### Versión Móvil (Mobile - 375px)
-![Vista Móvil - Inicio](public/img/captura-mobile-1.png)
-![Vista Móvil - Detalle](public/img/captura-mobile-2.png)
+![Vista Móvil - Inicio](public/img/mobile-home-es.png)
+![Vista Móvil - Detalle](public/img/mobile-buscador-es.png))
+![Vista Móvil - Detalle](public/img/mobile-favoritos-es.png))

@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "personajes": "Characters",
+    "favoritos": "Favorites"
+  },
+  "hero": {
+    "subtitulo": "Explore the characters and Paths of the Astral Express",
+    "btnExplorar": "Explore"
+  },
+  "historia": {
+    "titulo": "All Aboard the Astral Express",
+    "parrafo": "Embark on a space odyssey across unknown worlds. As the Trailblazer, you carry a Stellaron inside while traveling with your companions to uncover the secrets of the Aeons.",
+    "btn": "Explore the Story"
+  },
+  "destacados": {
+    "titulo": "Featured Characters",
+    "cargando": "Loading characters...",
+    "error": "Could not load characters.",
+    "reintentar": "Retry",
+    "verMas": "Learn more",
+    "verTodos": "View all characters"
+  },
+  "descarga": {
+    "titulo": "Your journey among the stars begins now!",
+    "parrafo": "Download Honkai: Star Rail for free and join the Astral Express crew. Explore fascinating worlds and master strategic turn-based combat.",
+    "disponible": "GET IT ON",
+    "consiguelo": "Download on the"
+  },
+  "footer": {
+    "descripcion": "Interactive guide to the characters and Paths of the Astral Express.",
+    "datos": "Data provided by",
+    "creditos": "Non-profit academic project • Honkai: Star Rail © HoYoverse"
+  },
+  "buscador": {
+    "heroTitulo": "Get to know everyone up close",
+    "heroSubtitulo": "Explore who you will meet along the way and save in your library those you would most like to meet on this journey",
+    "placeholder": "Search character...",
+    "todosElementos": "All elements",
+    "encontrados": "characters found",
+    "sinResultados": "No characters found matching those criteria.",
+    "verDetalles": "View details",
+    "cargarMas": "Load more characters",
+    "elementos": {
+      "Ice": "Ice",
+      "Fire": "Fire",
+      "Wind": "Wind",
+      "Physical": "Physical",
+      "Lightning": "Lightning",
+      "Quantum": "Quantum",
+      "Imaginary": "Imaginary"
+    }
+  },
+  "detalle": {
+    "volver": "← Back",
+    "cargando": "Loading character...",
+    "error": "Could not load character information.",
+    "habilidades": "Skills",
+    "agregarFav": "⭐ Add to Favorites",
+    "quitarFav": "★ Remove from Favorites"
+  },
+  "favoritos": {
+    "titulo": "My Favorites",
+    "vacio": "You haven't saved any characters to favorites yet.",
+    "explorar": "Explore characters",
+    "quitar": "Remove"
+  },
+  "error404": {
+    "titulo": "Page not found",
+    "descripcion": "The page you are looking for does not exist or has been moved.",
+    "btnVolver": "Back to Home"
+  }
+}

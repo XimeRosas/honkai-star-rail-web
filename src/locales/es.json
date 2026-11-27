@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "inicio": "Inicio",
+    "personajes": "Conocer personajes",
+    "favoritos": "Favoritos"
+  },
+  "hero": {
+    "subtitulo": "Explorá los personajes y vías del Expreso Astral",
+    "btnExplorar": "Explorar"
+  },
+  "historia": {
+    "titulo": "Sube a bordo del Expreso Astral",
+    "parrafo": "Embárcate en una odisea espacial a través de mundos desconocidos. Como Trazacaminos, llevarás un Estelaron en tu interior mientras viajas junto a tus compañeros para descubrir los secretos de los Eones.",
+    "btn": "Explorar la historia"
+  },
+  "destacados": {
+    "titulo": "Personajes destacados",
+    "cargando": "Cargando personajes...",
+    "error": "No se pudieron cargar los personajes.",
+    "reintentar": "Reintentar",
+    "verMas": "Conocer más",
+    "verTodos": "Conocer todos los personajes"
+  },
+  "descarga": {
+    "titulo": "¡Tu viaje entre las estrellas comienza ahora!",
+    "parrafo": "Descarga Honkai: Star Rail gratis y únete a la tripulación del Expreso Astral. Explora mundos fascinantes y domina el combate estratégico por turnos.",
+    "disponible": "DISPONIBLE EN",
+    "consiguelo": "Consíguelo en el"
+  },
+  "footer": {
+    "descripcion": "Guía interactiva de personajes y vías del Expreso Astral.",
+    "datos": "Datos obtenidos de",
+    "creditos": "Proyecto académico sin fines de lucro • Honkai: Star Rail © HoYoverse"
+  },
+  "buscador": {
+    "heroTitulo": "Conoce más de cerca a todos",
+    "heroSubtitulo": "Explorá con quienes te encontraras en el camino y guarda en tu biblioteca a quienes mas te agradaria conocer en esta travesía",
+    "placeholder": "Buscar personaje...",
+    "todosElementos": "Todos los elementos",
+    "encontrados": "personajes encontrados",
+    "sinResultados": "No se encontraron personajes con esos criterios.",
+    "verDetalles": "Ver detalles",
+    "cargarMas": "Cargar más personajes",
+    "elementos": {
+      "Ice": "Hielo",
+      "Fire": "Fuego",
+      "Wind": "Viento",
+      "Physical": "Físico",
+      "Lightning": "Rayo",
+      "Quantum": "Cuántico",
+      "Imaginary": "Imaginario"
+    }
+  },
+  "detalle": {
+    "volver": "← Volver",
+    "cargando": "Cargando personaje...",
+    "error": "No se pudo cargar la información del personaje.",
+    "habilidades": "Habilidades",
+    "agregarFav": "⭐ Agregar a Favoritos",
+    "quitarFav": "★ Quitar de Favoritos"
+  },
+  "favoritos": {
+    "titulo": "Mis Favoritos",
+    "vacio": "Todavía no guardaste ningún personaje en favoritos.",
+    "explorar": "Explorar personajes",
+    "quitar": "Quitar"
+  },
+  "error404": {
+    "titulo": "¡Ups! Te desviaste de la vía del Expreso Astral",
+    "descripcion": "La página que buscas no existe o fue movida.",
+    "btnVolver": "Volver al inicio"
+  }
+}

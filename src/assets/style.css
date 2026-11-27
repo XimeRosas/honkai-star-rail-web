@@ -1,0 +1,538 @@
+.logo{
+  width: 150px;
+  height: 80px;
+  object-fit: contain;
+}
+.navbar{
+  background-color: rgb(0, 0, 0);
+  border-bottom: 2px solid #4173ff;
+  
+}
+
+.nav-link{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: white;
+
+}
+
+.navbar-collapse{
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar-nav .router-link-active {
+  color: #ffc107 !important;
+  font-weight: bold;
+}
+
+.navbar-nav .router-link-exact-active {
+  border-bottom: 2px solid #ffc107;
+}
+
+.contenido-principal{
+  padding-top: 6rem;
+}
+/*===============================
+  HOMEVIEW ESTILO
+==================================*/
+.hero-banner{
+  background:  linear-gradient(90deg, rgba(15, 15, 20, 0.92) 0%, rgba(15, 15, 20, 0.4) 55%, rgba(15, 15, 20, 0.1) 100%),
+              url('/public/img/banner-home.png') no-repeat center center / cover;
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.home-titulo{
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+}
+
+.parrafo-hero{
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.btn-hero{
+  display: inline-block;
+  margin-top: 24px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 36px;
+  background-color: black;
+  border: white 2px solid;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-hero:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.historia-section {
+  /* Fondo de la franja (el tren espacial) con un ligero oscurecimiento para que se lea bien el texto */
+  background: linear-gradient(90deg, rgba(15, 15, 22, 0.4) 0%, rgba(15, 15, 22, 0.85) 55%, rgba(15, 15, 22, 0.95) 100%),
+              url('/img/fondo-seccion1.png') no-repeat center center / cover;
+  position: relative;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+
+.personajes-flotantes {
+  max-height: 520px;
+  margin-top: -65px;
+  margin-bottom: -65px;
+  filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.384));
+
+  /* Animación flotante continua */
+  animation: flotarSuave 4s ease-in-out infinite;
+}
+
+/* Definición del movimiento arriba y abajo */
+@keyframes flotarSuave {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-16px); /* Sube 16 píxeles suavemente */
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.historia-titulo {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.historia-parrafo {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #dcdcdc;
+}
+
+/* Botón siguiendo la misma estética de tu banner */
+.btn-historia {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 12px 36px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid white;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-historia:hover {
+  background-color: white;
+  color: black;
+}
+
+.descarga-section {
+  /* Degradado oscuro hacia la derecha para que el texto resalte sobre el planeta y el tren */
+  background: linear-gradient(90deg, rgba(15, 18, 28, 0.15) 0%, rgba(15, 18, 28, 0.78) 50%, rgba(15, 18, 28, 0.94) 100%),
+              url('/img/fondo-descarga.png') no-repeat center center / cover;
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+}
+
+.descarga-titulo {
+  font-size: 2.5rem;
+}
+
+.descarga-parrafo {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #e2e8f0;
+}
+
+.btn-store {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  text-decoration: none;
+  min-width: 170px;
+  transition: all 0.25s ease;
+}
+
+.btn-store:hover {
+  background-color: #1c1c24;
+  border-color: #ffc107;
+  transform: translateY(-3px);
+  color: #ffffff;
+}
+
+.store-sub {
+  font-size: 0.65rem;
+  letter-spacing: 0.5px;
+  opacity: 0.85;
+}
+
+.store-name {
+  font-size: 1.1rem;
+}
+
+/* En el <style> de App.vue */
+.footer-hsr {
+  background-color: #0e0e12;
+}
+
+.footer-logo {
+  max-height: 55px;
+  width: auto;
+}
+
+.footer-link {
+  color: #adb5bd;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: #ffc107;
+}
+
+.pompom-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%; 
+  object-fit: cover;  
+  object-position: top center; 
+  border: 2px solid #ffc107;
+  background-color: #262632;
+  flex-shrink: 0;
+}
+
+
+/* En celular (375px) oscurecemos un poco más todo el fondo para que el texto sea 100% legible */
+@media (max-width: 991px) {
+  .descarga-section {
+    background: linear-gradient(180deg, rgba(15, 18, 28, 0.72) 0%, rgba(15, 18, 28, 0.92) 100%),
+                url('/img/fondo-descarga.jpg') no-repeat left center / cover;
+  }
+
+  .descarga-titulo {
+    font-size: 1.9rem;
+  }
+}
+
+
+/* Ajuste para celulares: evita que los márgenes negativos tapen el texto cuando se apilan */
+@media (max-width: 991px) {
+  .personajes-flotantes {
+    margin-top: -40px;
+    margin-bottom: 10px;
+    max-height: 380px;
+  }
+}
+
+.titulo-personaje{
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.card-hsr {
+  position: relative;
+  height: 360px;
+  background: linear-gradient(180deg, #1b1b1d 0%, #0c2955 100%);
+  /* Corte diagonal en forma de paralelogramo */
+  clip-path: polygon(14% 0%, 100% 0%, 86% 100%, 0% 100%);
+  overflow: hidden;
+  border-radius: 0;
+  transition: transform 0.3s ease;
+}
+
+.card-hsr:hover {
+  transform: translateY(-8px);
+}
+
+.personaje-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform 0.4s ease;
+}
+
+.card-hsr:hover .personaje-img {
+  transform: scale(1.06);
+}
+
+/* Degradado claro abajo para que el nombre, las estrellas y el botón se lean bien */
+.card-hsr-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2.5rem 1.2rem 1rem 1.2rem;
+  background: linear-gradient(to top, rgba(61, 74, 116, 0.96) 35%, rgba(255, 255, 255, 0) 100%);
+  color: #111;
+}
+
+.personaje-nombre {
+  font-size: 1.05rem;
+  color: #111;
+}
+
+.personaje-estrellas {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
+.hero-banner-buscador{
+  background:  linear-gradient(90deg, rgba(15, 15, 20, 0.92) 0%, rgba(15, 15, 20, 0.4) 55%, rgba(15, 15, 20, 0.1) 100%),
+              url('/public/img/banner-buscador.png') no-repeat center center / cover;
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.titulo-favorito{
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.detalle-ficha {
+  background: radial-gradient(circle at 25% 50%, rgba(255, 255, 255, 0.06) 0%, rgba(12, 12, 16, 0.95) 70%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Transiciones laterales de entrada */
+.animar-izquierda {
+  animation: entrarIzquierda 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animar-derecha {
+  animation: entrarDerecha 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes entrarIzquierda {
+  from {
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes entrarDerecha {
+  from {
+    opacity: 0;
+    transform: translateX(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Imagen del personaje completa */
+.personaje-portrait {
+  width: 100%;
+  max-height: 540px;
+  object-fit: contain;
+  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.85));
+}
+
+.titulo-detalle {
+  font-size: 2.8rem;
+}
+
+.descripcion-detalle {
+  line-height: 1.7;
+  font-size: 1rem;
+  white-space: pre-line;
+}
+
+.badge-api {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9rem;
+}
+
+.icono-mini {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+/* Círculos de habilidades */
+.skill-wrapper {
+  cursor: pointer;
+  outline: none;
+}
+
+.skill-circle {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #2a2a35 0%, #141419 100%);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25s ease;
+}
+
+.skill-wrapper:hover .skill-circle,
+.skill-wrapper:focus .skill-circle {
+  border-color: #ffc107;
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.4);
+}
+
+.skill-icon {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.skill-tipo {
+  font-size: 0.7rem;
+  max-width: 62px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Ventanita flotante en hover */
+.skill-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  bottom: 115%;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+width: 290px;
+background-color: rgba(16, 16, 22, 0.98);
+border: 1px solid #ffc107;
+border-radius: 10px;
+padding: 0.9rem;
+z-index: 999;
+pointer-events: none;
+transition: all 0.25s ease;
+}
+.skill-wrapper:hover .skill-tooltip,
+.skill-wrapper:focus .skill-tooltip {
+visibility: visible;
+opacity: 1;
+transform: translateX(-50%) translateY(0);
+}
+.btn-hero {
+display: inline-block;
+color: white;
+text-decoration: none;
+padding: 8px 22px;
+background-color: black;
+border: 2px solid white;
+border-radius: 6px;
+transition: all 0.3s ease;
+}
+.btn-hero:hover {
+background-color: white;
+color: black;
+}
+/* Adaptación específica para celulares (375px) */
+@media (max-width: 576px) {
+.titulo-detalle {
+font-size: 2rem;
+}
+.personaje-portrait {
+max-height: 340px;
+}
+.skill-circle {
+width: 50px;
+height: 50px;
+}
+.skill-icon {
+width: 28px;
+height: 28px;
+}
+}
+
+.skill-tooltip {
+position: fixed;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+width: calc(100vw - 32px);
+max-width: 343px;
+}
+.skill-wrapper:hover .skill-tooltip,
+.skill-wrapper:focus .skill-tooltip {
+transform: translateX(-50%);
+}
+
+/*Transicion de vistas*/
+
+/* Entrada de la página */
+.pagina-enter-active {
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Salida de la página */
+.pagina-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Estado inicial de entrada */
+.pagina-enter-from {
+  opacity: 0;
+  transform: translateY(15px);
+}
+
+/* Estado final de salida */
+.pagina-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+
+/*Animaciones de la vista favoritos*/
+/* Entrada de tarjetas */
+.favoritos-enter-active,
+.favoritos-leave-active {
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+/* Tarjetas que aparecen */
+.favoritos-enter-from {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+/* Tarjetas que desaparecen */
+.favoritos-leave-to {
+  opacity: 0;
+  transform: scale(0.5);
+}
+
+/* Movimiento de las tarjetas restantes */
+.favoritos-move {
+  transition: transform 0.4s ease;
+}
+
+/* Evita que la tarjeta eliminada ocupe espacio */
+.favoritos-leave-active {
+  position: absolute;
+}
+

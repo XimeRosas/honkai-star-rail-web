@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "inicio": "ホーム",
+    "personajes": "キャラクター",
+    "favoritos": "お気に入り"
+  },
+  "hero": {
+    "subtitulo": "星穹列車のキャラクターと運命を探索しよう",
+    "btnExplorar": "探索する"
+  },
+  "historia": {
+    "titulo": "星穹列車へようこそ",
+    "parrafo": "未知の世界を巡る宇宙の旅へ出発しよう。開拓者として星核を宿し、仲間たちと共に星神の秘密を解き明かそう。",
+    "btn": "ストーリーを見る"
+  },
+  "destacados": {
+    "titulo": "注目キャラクター",
+    "cargando": "キャラクターを読み込み中...",
+    "error": "キャラクターを読み込めませんでした。",
+    "reintentar": "再試行",
+    "verMas": "詳細を見る",
+    "verTodos": "すべてのキャラクターを見る"
+  },
+  "descarga": {
+    "titulo": "星々を巡る旅が今始まる！",
+    "parrafo": "崩壊：スターレイルを無料ダウンロードして星穹列車に乗車しよう。魅力的な世界を探索し、戦略的なターン制バトルを楽しもう。",
+    "disponible": "手に入れよう",
+    "consiguelo": "ダウンロード"
+  },
+  "footer": {
+    "descripcion": "星穹列車のキャラクターと運命のインタラクティブガイド。",
+    "datos": "データ提供：",
+    "creditos": "非営利の学術プロジェクト • 崩壊：スターレイル © HoYoverse"
+  },
+  "buscador": {
+    "heroTitulo": "すべての仲間を詳しく知ろう",
+    "heroSubtitulo": "旅の途中で出会う仲間たちを探索し、気になるキャラクターをライブラリに保存しよう",
+    "placeholder": "キャラクターを検索...",
+    "todosElementos": "すべての属性",
+    "encontrados": "人のキャラクターが見つかりました",
+    "sinResultados": "条件に一致するキャラクターが見つかりませんでした。",
+    "verDetalles": "詳細を見る",
+    "cargarMas": "もっと見る",
+    "elementos": {
+      "Ice": "氷",
+      "Fire": "炎",
+      "Wind": "風",
+      "Physical": "物理",
+      "Lightning": "雷",
+      "Quantum": "量子",
+      "Imaginary": "虚数"
+    }
+  },
+  "detalle": {
+    "volver": "← 戻る",
+    "cargando": "キャラクターを読み込み中...",
+    "error": "キャラクター情報を読み込めませんでした。",
+    "habilidades": "スキル",
+    "agregarFav": "⭐ お気に入りに追加",
+    "quitarFav": "★ お気に入りから削除"
+  },
+  "favoritos": {
+    "titulo": "お気に入り",
+    "vacio": "お気に入りに登録されたキャラクターはまだいません。",
+    "explorar": "キャラクターを探す",
+    "quitar": "削除"
+  },
+  "error404": {
+    "titulo": "ページが見つかりません",
+    "descripcion": "お探しのページは存在しないか、移動された可能性があります。",
+    "btnVolver": "ホームへ戻る"
+  }
+}

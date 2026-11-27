@@ -1,4 +1,4 @@
-# 🚂 Honkai: Star Rail — Guía Interactiva del Expreso Astral
+# Honkai: Star Rail — Guía Interactiva del Expreso Astral
 
 Aplicación web SPA (*Single Page Application*) desarrollada con **Vue 3** y **Bootstrap 5** que permite explorar los personajes, vías, elementos y habilidades del universo de *Honkai: Star Rail*, incluyendo soporte multi-idioma (`ES` / `EN` / `JP`) y un asistente inteligente potenciado por **Firebase AI Logic (Gemini)** con la personalidad de **Pom-Pom**.
 
@@ -6,7 +6,7 @@ Aplicación web SPA (*Single Page Application*) desarrollada con **Vue 3** y **B
 
 ---
 
-## 👤 Integrantes
+## Integrantes
 
 - **Ximena Sadit** *(Completa aquí si tienes compañeros/as de equipo, carrera, materia y comisión)*
 
@@ -20,7 +20,7 @@ Aplicación web SPA (*Single Page Application*) desarrollada con **Vue 3** y **B
 
 ---
 
-## ✨ Funcionalidades Principales
+## Funcionalidades Principales
 
 - **Catálogo y Buscador con Filtros en URL:** Búsqueda por nombre y filtrado por elemento sincronizados con `query params` (`vue-router`) y paginación progresiva (*Cargar más*).
 - **Ficha de Detalle Interactiva:** Retrato completo del personaje con transiciones animadas, historia oficial y visualización de habilidades activas con descripción emergente (`hover` en escritorio / toque en móvil).
@@ -29,14 +29,14 @@ Aplicación web SPA (*Single Page Application*) desarrollada con **Vue 3** y **B
 
 ---
 
-## 🤖 Opción de IA Elegida: Asistente Pom-Pom
+##  Opción de IA Elegida: Asistente Pom-Pom
 
 - **Servicio utilizado:** **Firebase AI Logic** (`firebase/ai`) conectado mediante `GoogleAIBackend` (Gemini Developer API en el **Plan Spark gratuito**), utilizando el modelo `gemini-3.8-flash`.
 - **Funcionamiento:** Se implementó el componente `PomPomAsistente.vue` dentro de la vista de búsqueda, caracterizado mediante `systemInstruction` como **Pom-Pom** (el revisor del Expreso Astral). El asistente recibe como contexto el listado real de personajes cargados desde la API para recomendar personajes acordes al pedido del usuario, respetando el idioma elegido y manejando de forma clara los posibles límites de cuota gratuita (`429 / quota exceeded`).
 
 ---
 
-## ⚙️ Configuración de Variables de Entorno y Firebase
+##  Configuración de Variables de Entorno y Firebase
 
 Para conectar el proyecto con Firebase AI Logic, las credenciales de la aplicación web se configuran en `src/services/pomPomAi.js` (o mediante variables de entorno en un archivo `.env` en la raíz del proyecto):
 
@@ -55,7 +55,7 @@ VITE_FIREBASE_APP_ID=tu_app_id
 
 ---
 
-## 🚀 Instrucciones para Instalar y Correr el Proyecto
+## Instrucciones para Instalar y Correr el Proyecto
 
 1. **Clonar el repositorio:**
    ```bash
@@ -85,7 +85,7 @@ VITE_FIREBASE_APP_ID=tu_app_id
 ## 📸 Capturas de Pantalla
 
 ### Versión de Escritorio (Desktop)
-![Vista de Escritorio - Inicio](public/img/captura-desktop-1.png)
+![Vista de Escritorio - Inicio](public/img/)
 ![Vista de Escritorio - Buscador y Pom-Pom](public/img/captura-desktop-2.png)
 
 ### Versión Móvil (Mobile - 375px)
